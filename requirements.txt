@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic
+kokoro
+soundfile
+numpy
+huggingface_hub

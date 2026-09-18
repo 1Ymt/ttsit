@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+**/__pycache__/
+.cache/
+
+# Downloaded TTS model weights (fetched via download_voices.py)
+voices/
