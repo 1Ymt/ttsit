@@ -89,7 +89,7 @@ if __name__ == "__main__":
     args = ap.parse_args()
 
     port = args.port
-    createPipeline(args.warm)   #Pre-caching the pipeline for fist request
+    createPipeline(args.lang)   #Pre-caching the pipeline for fist request
     
     threading.Thread(target=watch_parent, daemon=True).start()
     uvicorn.run(app, host="127.0.0.1", port=port, log_level="info")
